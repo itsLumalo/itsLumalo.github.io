@@ -9,6 +9,9 @@ body {
 
 .shell{
   justify-content:center;
+  display: flex;
+  flex-direction:row;
+  flex-basis: auto;
   margin:5px;
 }
 
