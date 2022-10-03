@@ -8,12 +8,12 @@ body {
 }
 
 .shell{
-  border: 1px solid #EF9A9A;  
+  justify-content:center;
   margin:5px;
 }
 
 .card {
-
+  
   display: inline-block;
   width: 150px;                                  
   border: 1px solid #EF9A9A;    
