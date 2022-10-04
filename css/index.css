@@ -8,13 +8,13 @@ body {
 }
 
 .shell {
-  height: 300px; /* Added */
+  height:100vh;
   justify-content: center;
   display: flex;
   flex-direction: row;
   flex-basis: auto;
   margin: 5px;
-  align-items: center; /* Added */
+  align-items: center;
 }
 
 .card {
