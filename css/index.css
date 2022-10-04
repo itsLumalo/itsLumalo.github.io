@@ -1,33 +1,33 @@
-* {box-sizing: border-box;}
-
-body {
-  
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  
+* {
+  box-sizing: border-box;
 }
 
-.shell{
-  justify-content:center;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shell {
+  height: 300px; /* Added */
+  justify-content: center;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-basis: auto;
-  margin:5px;
+  margin: 5px;
+  align-items: center; /* Added */
 }
 
 .card {
-  
   display: inline-block;
-  width: 150px;                                  
-  border: 1px solid #EF9A9A;    
+  width: 150px;
+  height: 100px;
+  border: 1px solid #EF9A9A;
   border-radius: 4px;
-  margin: 5px; 
-  text-decoration:none;
-  
+  margin: 5px;
+  text-decoration: none;
 }
 
 .card-header {
-  
   color: #D32F2F;
   text-align: center;
   font-size: 12px;
@@ -35,98 +35,72 @@ body {
   border-bottom: 1px solid #EF9A9A;
   background-color: #FFEBEE;
   padding: 5px 10px;
-  
 }
 
 .card-main {
-  
-  display: flex;              
-  flex-direction: column;     
-  justify-content: center;    
-  align-items: center;        
-  padding: 15px 0; 
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
 }
 
 .material-icons {
-  
   font-size: 36px;
   color: #D32F2F;
   margin-bottom: 5px;
-  
 }
 
 .main-description {
-  
   color: #D32F2F;
   font-size: 12px;
   text-align: center;
-  
 }
 
 .header {
-  
   overflow: hidden;
   background-color: #FFEBEE;
   padding: 20px 10px;
   border-bottom: 1px solid #EF9A9A;
   border-radius: 4px;
-  
 }
 
 .header a {
-  
   float: left;
   color: #D32F2F;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  
 }
 
 .header a.logo {
-  
   font-size: 25px;
   font-weight: bold;
-  
 }
 
 .header a:hover {
-  
   background-color: #dfd5d7;
   color: #942626;
-  
 }
 
 .header a.active {
-  
   background-color: #D32F2F;
   color: #FFEBEE;
-  
 }
 
 .header-right {
-  
   float: right;
-  
 }
 
 @media screen and (max-width: 500px) {
-  
   .header a {
-    
     float: none;
     display: block;
     text-align: left;
-    
   }
-  
   .header-right {
-    
     float: none;
-    
   }
-  
