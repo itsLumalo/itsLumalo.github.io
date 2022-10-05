@@ -8,19 +8,19 @@ body {
 }
 
 .shell {
-  height:70vh;
+  height:65vh;
   justify-content: center;
   display: flex;
   flex-direction: row;
   flex-basis: auto;
   margin: 5px;
-  align-items: center;
+  align-items: center; /* Added */
 }
 
 .card {
   display: inline-block;
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  height: 160px;
   border: 1px solid #EF9A9A;
   border-radius: 4px;
   margin: 5px;
@@ -30,7 +30,7 @@ body {
 .card-header {
   color: #D32F2F;
   text-align: center;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: 600;
   border-bottom: 1px solid #EF9A9A;
   background-color: #FFEBEE;
@@ -46,14 +46,14 @@ body {
 }
 
 .material-icons {
-  font-size: 36px;
+  font-size: 36px!Important;
   color: #D32F2F;
   margin-bottom: 5px;
 }
 
 .main-description {
   color: #D32F2F;
-  font-size: 12px;
+  font-size: 24px;
   text-align: center;
 }
 
