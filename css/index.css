@@ -15,6 +15,7 @@ body {
   flex-basis: auto;
   margin: 5px 20px;
   align-items: center; /* Added */
+  flex-wrap:wrap;
 }
 
 .card {
