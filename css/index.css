@@ -40,6 +40,16 @@ body {
   text-decoration: none;
 }
 
+.gbacard {
+  display: inline-block;
+  width: 200px;
+  height: 180px;
+  border: 1px solid #EF9A9A;
+  border-radius: 4px;
+  margin: 5px;
+  text-decoration: none;
+}
+
 .card-header {
   color: #D32F2F;
   text-align: center;
